@@ -1,0 +1,615 @@
+body{
+	width: 100%;
+	height: 100vh;
+	background-image:url('IMG/trang32.png');
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-y: auto;
+}
+#banner{
+	width: 100%;
+	min-height: 15vh;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	display: flex;
+}
+#under{
+	width: 100%;
+	min-height: 55vh;
+	float: left;
+}
+#left{
+	width: 20%;
+	min-height: 55vh;
+	float: left;
+}
+#content{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 55vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right{
+	width: 20%;
+	min-height: 55vh;
+}
+#s1{
+	font-family:'Khmer Moul'; 
+	font-size: 30px; 
+	color:white;
+	line-height: 1.5;
+}
+#s2{
+	font-family:'Khmer OS Battambang';
+	font-size: 20px; 
+	color:white;
+}
+#s3{
+	font-family:'Khmer OS Battambang';
+	font-size: 20px; 
+	color:white;	
+}
+#under2{
+	width: 100%;
+	min-height: 30vh;
+	float: left;
+}
+#left2{
+	width: 20%;
+	min-height: 30vh;
+	float: left;
+}
+#content2{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 30vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right2{
+	width: 20%;
+	min-height: 30vh;
+}
+#b1{
+	font-family:'Khmer OS Battambang';
+	font-size: 20px; 
+	color:white;
+}
+#under3{
+	width: 100%;
+	min-height: 30vh;
+	float: left;
+}
+#left3{
+	width: 20%;
+	min-height: 30vh;
+	float: left;
+}
+#content3{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 30vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right3{
+	width: 20%;
+	min-height: 30vh;
+}
+#b2{
+	font-family:'Khmer OS Battambang';
+	font-size: 20px; 
+	color:white;
+}
+#line{
+    width:480px;
+    height:2px;
+    background:white;
+    margin:auto;
+    position:relative;
+}
+#line::before{
+    content:"";
+    width:12px;
+    height:12px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    left:-6px;
+    top:-5px;
+}
+#line::after{
+    content:"";
+    width:12px;
+    height:12px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    right:-6px;
+    top:-5px;
+}
+#under4{
+	width: 100%;
+	min-height: 85vh;
+	float: left;
+}
+#left4{
+	width: 20%;
+	min-height: 85vh;
+	float: left;
+}
+#content4{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 85vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right4{
+	width: 20%;
+	min-height: 85vh;
+}
+#b4{
+	font-family:'Khmer Moul'; 
+	font-size: 30px; 
+	color:white;
+	line-height: 1.5;
+}
+#b3{
+	font-family:'Khmer OS Battambang'; 
+	font-size: 20px; 
+	color:white;
+}
+#under5{
+	width: 100%;
+	min-height: 15vh;
+	float: left;
+}
+#left5{
+	width: 20%;
+	min-height: 15vh;
+	float: left;
+}
+#content5{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 15vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right5{
+	width: 20%;
+	min-height: 15vh;
+}
+#b5{
+	font-family:'Khmer OS Battambang'; 
+	font-size: 20px; 
+	color:white;
+}
+@keyframes fadeIn{
+	from{opacity: 0; transform: translateY(10px);}
+	to{ opacity:1; transform: translateY(0);}
+}
+#s1{
+	animation: fadeIn 3s ease-out;
+}
+#s2{
+	animation: fadeIn 3s ease-out;
+}
+#s3{
+	animation: fadeIn 3s ease-out;
+}
+#b1{
+	animation: fadeIn 3s ease-out;
+}
+#b2{
+	animation: fadeIn 3s ease-out;
+}
+#line{
+	animation: fadeIn 3s ease-out;
+}
+#b3,#b4{
+	animation: fadeIn 3s ease-out;
+}
+#b5{
+	animation: fadeIn 3s ease-out;
+}
+@media (max-width: 1024px){
+#under{
+	width: 100%;
+	min-height: 45vh;
+	float: left;
+}
+#left{
+	width: 15%;
+	min-height: 45vh;
+	float: left;
+}
+#content{
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	min-height: 45vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right{
+	width: 15%;
+	min-height: 45vh;
+}
+#under2{
+	width: 100%;
+	min-height: 25vh;
+	float: left;
+}
+#left2{
+	width: 20%;
+	min-height: 25vh;
+	float: left;
+}
+#content2{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 25vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right2{
+	width: 20%;
+	min-height: 25vh;
+}
+#s1{
+	font-family:'Khmer Moul'; 
+	font-size: 25px; 
+	color:white;
+}
+#s2{
+	font-family:'Khmer OS Battambang';
+	font-size: 15px; 
+	color:white;
+}
+#s3{
+	font-family:'Khmer OS Battambang';
+	font-size: 15px; 
+	color:white;	
+}
+#b1{
+	font-family:'Khmer OS Battambang';
+	font-size: 15px; 
+	color:white;
+}
+#under3{
+	width: 100%;
+	min-height: 25vh;
+	float: left;
+}
+#left3{
+	width: 20%;
+	min-height: 25vh;
+	float: left;
+}
+#content3{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 25vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right3{
+	width: 20%;
+	min-height: 25vh;
+}
+#b2{
+	font-family:'Khmer OS Battambang';
+	font-size: 15px; 
+	color:white;
+}
+#line{
+    width:380px;
+    height:2px;
+    background:white;
+    margin:auto;
+    position:relative;
+}
+#line::before{
+    content:"";
+    width:10px;
+    height:10px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    left:-4px;
+    top:-3px;
+}
+#line::after{
+    content:"";
+    width:10px;
+    height:10px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    right:-4px;
+    top:-3px;
+}
+#under4{
+	width: 100%;
+	min-height: 65vh;
+	float: left;
+}
+#left4{
+	width: 20%;
+	min-height: 65vh;
+	float: left;
+}
+#content4{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 65vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right4{
+	width: 20%;
+	min-height: 65vh;
+}
+#b4{
+	font-family:'Khmer Moul'; 
+	font-size: 25px; 
+	color:white;
+	line-height: 1.5;
+}
+#b3{
+	font-family:'Khmer OS Battambang'; 
+	font-size: 15px; 
+	color:white;
+}
+#under5{
+	width: 100%;
+	min-height: 10vh;
+	float: left;
+}
+#left5{
+	width: 20%;
+	min-height: 10vh;
+	float: left;
+}
+#content5{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 10vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right5{
+	width: 20%;
+	min-height: 10vh;
+}
+#b5{
+	font-family:'Khmer OS Battambang'; 
+	font-size: 15px; 
+	color:white;
+}
+}
+@media(max-width: 768px){
+#under{
+	width: 100%;
+	min-height: 35vh;
+	float: left;
+}
+#left{
+	width: 13%;
+	min-height: 35vh;
+	float: left;
+}
+#content{
+	width: 74%;
+	display: flex;
+	flex-direction: column;
+	min-height: 35vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right{
+	width: 13%;
+	min-height: 35vh;
+}
+#under2{
+	width: 100%;
+	min-height: 18vh;
+	float: left;
+}
+#left2{
+	width: 10%;
+	min-height: 18vh;
+	float: left;
+}
+#content2{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	min-height: 18vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right2{
+	width: 10%;
+	min-height: 18vh;
+}
+#s1{
+	font-family:'Khmer Moul'; 
+	font-size: 15px; 
+	color:white;
+}
+#s2{
+	font-family:'Khmer OS Battambang';
+	font-size: 11px; 
+	color:white;
+}
+#s3{
+	font-family:'Khmer OS Battambang';
+	font-size: 11px; 
+	color:white;	
+}
+#b1{
+	font-family:'Khmer OS Battambang';
+	font-size: 11px; 
+	color:white;
+}
+#under3{
+	width: 100%;
+	min-height: 17vh;
+	float: left;
+}
+#left3{
+	width: 20%;
+	min-height: 17vh;
+	float: left;
+}
+#content3{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 17vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right3{
+	width: 20%;
+	min-height: 17vh;
+}
+#b2{
+	font-family:'Khmer OS Battambang';
+	font-size: 11px; 
+	color:white;
+}
+#line{
+    width:280px;
+    height:2px;
+    background:white;
+    margin:auto;
+    position:relative;
+}
+#line::before{
+    content:"";
+    width:8px;
+    height:8px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    left:-2px;
+    top:-1px;
+}
+#line::after{
+    content:"";
+    width:8px;
+    height:8px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    right:-2px;
+    top:-1px;
+}
+#under4{
+	width: 100%;
+	min-height: 45vh;
+	float: left;
+}
+#left4{
+	width: 13%;
+	min-height: 45vh;
+	float: left;
+}
+#content4{
+	width: 74%;
+	display: flex;
+	flex-direction: column;
+	min-height: 45vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right4{
+	width: 13%;
+	min-height: 45vh;
+}
+#b4{
+	font-family:'Khmer Moul'; 
+	font-size: 15px; 
+	color:white;
+	line-height: 1.5;
+}
+#b3{
+	font-family:'Khmer OS Battambang'; 
+	font-size: 11px; 
+	color:white;
+}
+#under5{
+	width: 100%;
+	min-height: 10vh;
+	float: left;
+}
+#left5{
+	width: 20%;
+	min-height: 10vh;
+	float: left;
+}
+#content5{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 10vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right5{
+	width: 20%;
+	min-height: 10vh;
+}
+#b5{
+	font-family:'Khmer OS Battambang'; 
+	font-size: 11px; 
+	color:white;
+}	
+}

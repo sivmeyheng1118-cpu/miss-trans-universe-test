@@ -1,0 +1,152 @@
+body{
+	width: 100%;
+	height: 100vh;
+	background-image:url('IMG/backgr1.png');
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#banner{
+	width: 100%;
+	min-height:20vh;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+#content{
+	width: 100%;
+	min-height: 60vh;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+#footer{
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+}
+#s1{
+	font-family:'Khmer Moul'; 
+	font-size: 40px;
+	color:white;
+}
+#s2{
+	font-family:'Khmer Moul'; 
+	font-size: 30px; 
+	color:white;
+}
+#s3{
+	font-family:'Khmer Moul'; 
+	font-size: 25px; 
+	color:white;
+}
+#s4{
+	font-family:'Khmer Moul'; 
+	font-size: 30px; 
+	color:white;
+}
+#s5{
+	font-family:'Khmer OS Battambang';
+	font-size: 25px; 
+	color:white;
+}
+#btn{
+	width: 220px;
+	height: 100px;
+	background-image:url('IMG/btn5.png');
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+@keyframes fadeIn{
+	from{opacity: 0; transform: translateY(10px);}
+	to{ opacity:1; transform: translateY(0);}
+}
+#s1{
+	animation: fadeIn 3s ease-out;
+}
+#s2{
+	animation: fadeIn 3s ease-out;
+}
+#s3{
+	animation: fadeIn 3s ease-out;
+}
+#s4{
+	animation: fadeIn 3s ease-out;
+}
+#s5{
+	animation: fadeIn 3s ease-out;
+}
+#btn{
+	animation: fadeIn 3s ease-out;
+}
+#logo{
+	animation: fadeIn 3s ease-out;
+}
+@media (max-width: 1024px){
+		#s1{
+			font-size: 35px;
+		}
+		#s2{
+			font-size: 25px; 
+		}
+		#s3{
+			font-size: 20px; 
+		}
+		#s4{
+			font-size: 25px; 
+		}
+		#s5{
+			font-size: 20px;
+		}
+	#btn{
+	width: 180px;
+	height: 50px;
+	background-image:url('IMG/btn5.png');
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+	}
+@media (max-width:768px){
+		#s1{
+			font-size: 25px;
+		}
+		#s2{
+			font-size: 15px; 
+		}
+		#s3{
+			font-size: 12px; 
+		}
+		#s4{
+			font-size: 15px; 
+		}
+		#s5{
+			font-size: 12px;
+		}
+		#btn{
+	width: 160px;
+	height: 50px;
+	background-image:url('IMG/btn5.png');
+	background-color: transparent;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+}
