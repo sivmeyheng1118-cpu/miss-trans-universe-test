@@ -188,12 +188,12 @@ body{
 	}
 @media (max-width:768px){
 	@font-face{
-	font-family:'Khmer Moul';
-	src:url('fonts/Khmer Moul-Regular.ttf');
+	font-family:'KhmerMoul';
+	src:url('fonts/KhmerMoul-Regular.ttf');
 }
 @font-face{
-	font-family:'Khmer OS Battambang';
-	src:url('fonts/Khmer OS Battambang-Regular.ttf');
+	font-family:'KhmerBattambang';
+	src:url('fonts/KhmerOSBattambang.ttf');
 }
 	#banner{
 	width: 100%;
@@ -237,23 +237,23 @@ body{
 	height: 10vh;
 }
 		#s1{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 18px;
 		}
 		#s2{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 13px; 
 		}
 		#s3{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 11px; 
 		}
 		#s4{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 13px; 
 		}
 		#s5{
-			font-family:'Khmer OS Battambang';
+			font-family:'KhmerBattambang';
 			font-size: 11px;
 		}
 		#btn{
