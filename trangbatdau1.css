@@ -7,8 +7,6 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	overflow-x: hidden;
-	-webkit-font-smoothing:antialiased;
-	text-rendering: optimizeLegibility;
 }
 #banner{
 	width: 100%;
@@ -112,14 +110,6 @@ body{
 #logo{
 	animation: fadeIn 4s ease-out;
 }
-@font-face{
-	font-family:'Khmer Moul';
-	src:url('fonts/Khmer Moul-Regular.ttf');
-}
-@font-face{
-	font-family:'Khmer OS Battambang';
-	src:url('fonts/Khmer OS Battambang-Regular.ttf');
-}
 @media (max-width: 1024px){
 	#banner{
 	width: 100%;
@@ -195,6 +185,14 @@ body{
 }
 	}
 @media (max-width:768px){
+	@font-face{
+	font-family:'Khmer Moul';
+	src:url('fonts/Khmer Moul-Regular.ttf');
+}
+@font-face{
+	font-family:'Khmer OS Battambang';
+	src:url('fonts/Khmer OS Battambang-Regular.ttf');
+}
 	#banner{
 	width: 100%;
 	min-height:20vh;
