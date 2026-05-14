@@ -144,23 +144,23 @@ body{
 @media (max-width:768px){
 		#s1{
 			font-family:'Khmer Moul'; 
-			font-size: 25px;
+			font-size: 18px;
 		}
 		#s2{
 			font-family:'Khmer Moul'; 
-			font-size: 12px; 
+			font-size: 15px; 
 		}
 		#s3{
 			font-family:'Khmer Moul'; 
-			font-size: 10px; 
+			font-size: 12px; 
 		}
 		#s4{
 			font-family:'Khmer Moul'; 
-			font-size: 12px; 
+			font-size: 15px; 
 		}
 		#s5{
 			font-family:'Khmer OS Battambang';
-			font-size: 10px;
+			font-size: 12px;
 		}
 		#btn{
 	width: 160px;
