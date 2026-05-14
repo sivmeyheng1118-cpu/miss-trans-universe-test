@@ -96,18 +96,23 @@ body{
 }
 @media (max-width: 1024px){
 		#s1{
+			font-family:'Khmer Moul'; 
 			font-size: 35px;
 		}
 		#s2{
+			font-family:'Khmer Moul'; 
 			font-size: 25px; 
 		}
 		#s3{
+			font-family:'Khmer Moul'; 
 			font-size: 20px; 
 		}
 		#s4{
+			font-family:'Khmer Moul'; 
 			font-size: 25px; 
 		}
 		#s5{
+			font-family:'Khmer OS Battambang';
 			font-size: 20px;
 		}
 	#btn{
@@ -124,18 +129,23 @@ body{
 	}
 @media (max-width:768px){
 		#s1{
+			font-family:'Khmer Moul'; 
 			font-size: 25px;
 		}
 		#s2{
+			font-family:'Khmer Moul'; 
 			font-size: 15px; 
 		}
 		#s3{
+			font-family:'Khmer Moul'; 
 			font-size: 12px; 
 		}
 		#s4{
+			font-family:'Khmer Moul'; 
 			font-size: 15px; 
 		}
 		#s5{
+			font-family:'Khmer OS Battambang';
 			font-size: 12px;
 		}
 		#btn{
