@@ -17,19 +17,19 @@ body{
 }
 #under{
 	width: 100%;
-	min-height: 60vh;
+	min-height: 50vh;
 	float: left;
 }
 #left{
 	width: 5%;
-	min-height: 60vh;
+	min-height: 50vh;
 	float: left;
 }
 #content{
 	width: 90%;
 	display: flex;
 	flex-direction: column;
-	min-height: 60vh;
+	min-height: 50vh;
 	text-align: center;
 	align-items: center;
 	justify-content: center;
@@ -37,7 +37,7 @@ body{
 }
 #right{
 	width: 5%;
-	min-height: 60vh;
+	min-height: 50vh;
 }
 #footer{
 	justify-content: center;
@@ -165,8 +165,8 @@ body{
 			font-size: 10px;
 		}
 		#btn{
-	width: 160px;
-	height: 50px;
+	width: 140px;
+	height: 35px;
 	background-image:url('IMG/btn5.png');
 	background-color: transparent;
 	background-size: cover;
