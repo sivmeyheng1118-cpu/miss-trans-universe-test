@@ -5,6 +5,8 @@ body{
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-y: auto;
 }
 #banner{
 	width: 100%;
@@ -88,25 +90,25 @@ body{
 	to{ opacity:1; transform: translateY(0);}
 }
 #s1{
-	animation: fadeIn 3s ease-out;
+	animation: fadeIn 4s ease-out;
 }
 #s2{
-	animation: fadeIn 3s ease-out;
+	animation: fadeIn 4s ease-out;
 }
 #s3{
-	animation: fadeIn 3s ease-out;
+	animation: fadeIn 4s ease-out;
 }
 #s4{
-	animation: fadeIn 3s ease-out;
+	animation: fadeIn 4s ease-out;
 }
 #s5{
-	animation: fadeIn 3s ease-out;
+	animation: fadeIn 4s ease-out;
 }
 #btn{
 	animation: fadeIn 3s ease-out;
 }
 #logo{
-	animation: fadeIn 3s ease-out;
+	animation: fadeIn 4s ease-out;
 }
 @media (max-width: 1024px){
 		#s1{
@@ -148,19 +150,19 @@ body{
 		}
 		#s2{
 			font-family:'Khmer Moul'; 
-			font-size: 12px; 
+			font-size: 11px; 
 		}
 		#s3{
 			font-family:'Khmer Moul'; 
-			font-size: 10px; 
+			font-size: 9px; 
 		}
 		#s4{
 			font-family:'Khmer Moul'; 
-			font-size: 12px; 
+			font-size: 11px; 
 		}
 		#s5{
 			font-family:'Khmer OS Battambang';
-			font-size: 10px;
+			font-size: 9px;
 		}
 		#btn{
 	width: 160px;
