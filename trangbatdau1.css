@@ -5,6 +5,8 @@ body{
 	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-y: auto;
 }
 #banner{
 	width: 100%;
@@ -144,23 +146,23 @@ body{
 @media (max-width:768px){
 		#s1{
 			font-family:'Khmer Moul'; 
-			font-size: 18px;
+			font-size: 17px;
 		}
 		#s2{
 			font-family:'Khmer Moul'; 
-			font-size: 15px; 
+			font-size: 12px; 
 		}
 		#s3{
 			font-family:'Khmer Moul'; 
-			font-size: 12px; 
+			font-size: 10px; 
 		}
 		#s4{
 			font-family:'Khmer Moul'; 
-			font-size: 15px; 
+			font-size: 12px; 
 		}
 		#s5{
 			font-family:'Khmer OS Battambang';
-			font-size: 12px;
+			font-size: 10px;
 		}
 		#btn{
 	width: 160px;
