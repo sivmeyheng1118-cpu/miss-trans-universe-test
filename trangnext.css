@@ -206,7 +206,6 @@ body{
 	color:white;
 }
 #under6{
-	border: 2px solid white;
 	width: 100%;
 	min-height: 15vh;
 	float: left;
@@ -448,7 +447,6 @@ body{
 	color:white;
 }
 #under6{
-	border: 2px solid white;
 	width: 100%;
 	min-height: 10vh;
 	float: left;
@@ -572,7 +570,7 @@ body{
 	color:white;
 }
 #line{
-    width:250px;
+    width:230px;
     height:2px;
     background:white;
     margin:auto;
@@ -599,7 +597,6 @@ body{
     top:-2px;
 }
 #under4{
-	border: 2px solid white;
 	width: 100%;
 	min-height: 45vh;
 	float: left;
@@ -635,7 +632,6 @@ body{
 	color:white;
 }
 #under5{
-	border: 2px solid white;
 	width: 100%;
 	min-height: 8vh;
 	float: left;
@@ -665,7 +661,6 @@ body{
 	color:white;
 }
 #under6{
-	border: 2px solid white;
 	width: 100%;
 	min-height: 8vh;
 	float: left;
