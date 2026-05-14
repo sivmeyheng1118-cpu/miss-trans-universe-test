@@ -7,10 +7,12 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	overflow-x: hidden;
+	-webkit-font-smoothing:antialiased;
+	text-rendering: optimizeLegibility;
 }
 #banner{
 	width: 100%;
-	min-height:30vh;
+	min-height:20vh;
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -113,7 +115,7 @@ body{
 @media (max-width: 1024px){
 	#banner{
 	width: 100%;
-	min-height:30vh;
+	min-height:20vh;
 	align-items: center;
 	justify-content: center;
 	display: flex;
