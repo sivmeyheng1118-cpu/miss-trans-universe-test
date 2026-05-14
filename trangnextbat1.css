@@ -70,10 +70,12 @@ body{
 }
 @media (max-width: 1024px){
 		#s1{
-			font-size: 60px;
+			font-family:'Khmer Moul';
+			font-size: 58px;
 		}
 		#s2{
-			font-size: 55px;
+			font-family:'Cambria'; 
+			font-size: 52px;
 		}
 		#btn{
 	width: 180px;
@@ -89,10 +91,12 @@ body{
 }
 @media (max-width:768px){
 		#s1{
-			font-size: 36px;
+			font-family:'Khmer Moul';
+			font-size: 34px;
 		}
 		#s2{
-			font-size: 30px;
+			font-family:'Cambria'; 
+			font-size: 28px;
 		}
 		#btn{
 	width: 160px;
