@@ -52,27 +52,27 @@ body{
 	height: 10vh;
 }
 #s1{
-	font-family:'KhmerMoul'; 
+	font-family:'Khmer Moul'; 
 	font-size: 40px;
 	color:white;
 }
 #s2{
-	font-family:'KhmerMoul'; 
+	font-family:'Khmer Moul'; 
 	font-size: 30px; 
 	color:white;
 }
 #s3{
-	font-family:'KhmerMoul'; 
+	font-family:'Khmer Moul'; 
 	font-size: 25px; 
 	color:white;
 }
 #s4{
-	font-family:'KhmerMoul'; 
+	font-family:'Khmer Moul'; 
 	font-size: 30px; 
 	color:white;
 }
 #s5{
-	font-family:'KhmerBattambang';
+	font-family:'Khmer OS Battambang';
 	font-size: 25px; 
 	color:white;
 }
@@ -113,12 +113,12 @@ body{
 	animation: fadeIn 4s ease-out;
 }
 @font-face{
-	font-family:'KhmerMoul';
-	src:url('fonts/KhmerMoul-Regular.ttf');
+	font-family:'Khmer Moul';
+	src:url('fonts/Khmer Moul-Regular.ttf');
 }
 @font-face{
-	font-family:'KhmerBattambang';
-	src:url('fonts/KhmerBattambang-Regular.ttf');
+	font-family:'Khmer OS Battambang';
+	src:url('fonts/Khmer OS Battambang-Regular.ttf');
 }
 @media (max-width: 1024px){
 	#banner{
@@ -163,23 +163,23 @@ body{
 	height: 10vh;
 }
 		#s1{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 35px;
 		}
 		#s2{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 25px; 
 		}
 		#s3{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 20px; 
 		}
 		#s4{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 25px; 
 		}
 		#s5{
-			font-family:'KhmerBattambang';
+			font-family:'Khmer OS Battambang';
 			font-size: 20px;
 		}
 	#btn{
@@ -237,23 +237,23 @@ body{
 	height: 10vh;
 }
 		#s1{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 18px;
 		}
 		#s2{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 13px; 
 		}
 		#s3{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 11px; 
 		}
 		#s4{
-			font-family:'KhmerMoul'; 
+			font-family:'Khmer Moul'; 
 			font-size: 13px; 
 		}
 		#s5{
-			font-family:'KhmerBattambang';
+			font-family:'Khmer OS Battambang';
 			font-size: 11px;
 		}
 		#btn{
