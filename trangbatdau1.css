@@ -6,7 +6,9 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-font-smoothing:antialiased;
+	text-rendering: optimizeLegibility;
 }
 #banner{
 	width: 100%;
@@ -50,27 +52,27 @@ body{
 	height: 10vh;
 }
 #s1{
-	font-family:'Khmer Moul'; 
+	font-family:'KhmerMoul'; 
 	font-size: 40px;
 	color:white;
 }
 #s2{
-	font-family:'Khmer Moul'; 
+	font-family:'KhmerMoul'; 
 	font-size: 30px; 
 	color:white;
 }
 #s3{
-	font-family:'Khmer Moul'; 
+	font-family:'KhmerMoul'; 
 	font-size: 25px; 
 	color:white;
 }
 #s4{
-	font-family:'Khmer Moul'; 
+	font-family:'KhmerMoul'; 
 	font-size: 30px; 
 	color:white;
 }
 #s5{
-	font-family:'Khmer OS Battambang';
+	font-family:'KhmerBattambang';
 	font-size: 25px; 
 	color:white;
 }
@@ -109,6 +111,14 @@ body{
 }
 #logo{
 	animation: fadeIn 4s ease-out;
+}
+@font-face{
+	font-family:'KhmerMoul';
+	src:url('fonts/KhmerMoul-Regular.ttf');
+}
+@font-face{
+	font-family:'KhmerBattambang';
+	src:url('fonts/KhmerBattambang-Regular.ttf');
 }
 @media (max-width: 1024px){
 	#banner{
@@ -153,23 +163,23 @@ body{
 	height: 10vh;
 }
 		#s1{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 35px;
 		}
 		#s2{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 25px; 
 		}
 		#s3{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 20px; 
 		}
 		#s4{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 25px; 
 		}
 		#s5{
-			font-family:'Khmer OS Battambang';
+			font-family:'KhmerBattambang';
 			font-size: 20px;
 		}
 	#btn{
@@ -227,23 +237,23 @@ body{
 	height: 10vh;
 }
 		#s1{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 18px;
 		}
 		#s2{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 14px; 
 		}
 		#s3{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 12px; 
 		}
 		#s4{
-			font-family:'Khmer Moul'; 
+			font-family:'KhmerMoul'; 
 			font-size: 14px; 
 		}
 		#s5{
-			font-family:'Khmer OS Battambang';
+			font-family:'KhmerBattambang';
 			font-size: 12px;
 		}
 		#btn{
