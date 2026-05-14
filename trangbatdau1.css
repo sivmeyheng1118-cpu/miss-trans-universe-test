@@ -13,15 +13,29 @@ body{
 	justify-content: center;
 	display: flex;
 }
-#content{
+#under{
 	width: 100%;
 	min-height: 60vh;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+	float: left;
+}
+#left{
+	width: 10%;
+	min-height: 60vh;
+	float: left;
+}
+#content{
+	width: 80%;
 	display: flex;
 	flex-direction: column;
-	float: left;
+	min-height: 60vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	float:left;
+}
+#right{
+	width: 10%;
+	min-height: 60vh;
 }
 #footer{
 	justify-content: center;
